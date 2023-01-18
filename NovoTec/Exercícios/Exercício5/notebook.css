@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#primeiro{
+    color: yellow;
+}
+#segundo{
+    color: blue;
+}
+#terceiro{
+    color: black;
+}
+#quarto{
+    color: hotpink;
+}
+#quinto{
+    color: green;
+}
+#sexto{
+    color: brown;
+}

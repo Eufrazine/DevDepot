@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lógica de programação com JavaScript</title>
+    </head>
+    <body>
+        <h1>Funções void: Reaproveitando códigos</h1>
+        <button onclick="somar()">+</button>
+        <button onclick="subtrair()">-</button>
+        <button onclick="multiplicar()">*</button>
+        <button onclick="dividir()">/</button>
+        <div id="output"></div>
+        
+        <script>
+            // Função que é responsável por mostrar o texto da variável n1
+            var n1 = parseFloat(prompt('Digite um número: '));
+            escreve();
+            function escreve(){
+                var output = document.querySelector('#output');
+                output.innerHTML = n1;
+            }
+            // Aqui temos as funções das operações solicitadas
+            function somar(){
+                var n = parseFloat(prompt('Digite outro número'));
+                n1 += n;
+                escreve();
+            }
+            function subtrair(){
+                var n = parseFloat(prompt('Digite outro número'));
+                n1 -= n;
+                escreve();
+            }
+            function multiplicar(){
+                var n = parseFloat(prompt('Digite outro número'));
+                n1 *= n;
+                escreve();
+            }
+            function dividir(){
+                var n = parseFloat(prompt('Digite outro número'));
+                n1 /= n;
+                escreve();
+            }   
+        </script> 
+    </body>
+</html>

@@ -1,0 +1,12 @@
+Sobre a cor "todo"
+
+⇒Isso é devido às configurações do PyCharm, que considera o termo "todo" como to do, do inglês "a fazer" e destaca o conteúdo como forma de alertar o desenvolvedor sobre as pendências.
+
+⇒Isso não tem a ver com a linguagem - (código fonte não tem "cores" é só texto, de qualquer forma) - e sim, com a ferramenta que você está usando - no caso o PyCharm.
+
+O PyCharm é uma IDE, e IDEs provem suporte para escrever projetos grandes que vão além da linguagem em si. No caso, o qu efaz com que a cor seja mudada é que há uma prática entre desenvolvedores de colocar palavras chave em alguns comentários indicando pontos importantes que devem ser revisitados mais pra frente no projeto.
+
+Um exemplo disso é a palavra "FIXME" (conserte-me) e no seu caso, o uso de "TODO" - "To Do" - significando "ainda falta fazer (isso)" - o PyCharm então destaca os comentários que tem lembretes do desenvolvedor de "coisas que faltam serem feitas".
+
+Para a linguagem em si, é só um comentário, ignorado como qualquer outro.
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lógica de programação com JavaScript</title>
+    </head>
+
+    <body>
+        <h1>Operadores Aritméticos 1</h1>
+
+        <script>
+            // Pedir para o usuário digitar dois número
+            var n1 = prompt('Digite um número: ');
+            n1 = parseFloat(n1);
+            var n2 = prompt('Digite outro número: ');
+            n2 = parseFloat(n2);
+
+            var media = (n1 + n2) / 2;
+            // Aqui aconteceu o conceito de prefenrencia, o valor que está dentro de ‟()” tem preferência.
+            alert('A média é: ' + media);
+
+            /*  5 % 2 = 1 (% Módulo) (O resto da divisão)
+                2 % 2 = 0 (Também serve para se verificar se o número é impar ou par, quando é igual a 1 = impar, quando é 0 = par)
+                2 ** 3 = 8 (% Exponenciação)(Elevado a 3)
+                3 ** 2 = 9 (Elevado a 2)
+
+                (++ Incremento)(-- Decremento)
+                var n = 2
+                n = 2
+                n++
+                2
+                n
+                3
+                n--
+                3
+                n
+                2
+                (É como se fosse uma adição/subtração direto no var de mais um número)
+            */
+        </script>
+    </body>
+
+</html>

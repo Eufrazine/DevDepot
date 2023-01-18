@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>While1</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="pt-br">
+    <meta name="copyright" content="Monique">
+    <meta name="description" content="Atividade dia 03/12">
+</head>
+
+<body>
+
+    <p>Click the button to loop through a block of code as long as i is less than 10.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+        var cars = ["Toyota", "Hyundai", "Land Rover", "Honda"];
+        var i = 0;
+        var text = "";
+        while (cars[i]) {
+            text += cars[i] + "<br>";
+            i++;
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+
+</html>
