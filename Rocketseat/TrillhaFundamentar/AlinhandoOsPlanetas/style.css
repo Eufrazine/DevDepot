@@ -1,5 +1,11 @@
 .container {
   display: flex;
-  flex-direction: column-reverse;
-  height: 60vh;
+  align-items: center;
+  flex-direction: column;
+  border: 1px dashed red;
+  height: 150px;
+}
+
+.container div {
+  border: 1px solid;
 }

@@ -8,7 +8,7 @@
   html <p>Texto com strong <strong style="background: green">inline</strong></p> dentro </p>
 # Tables
 
-- é a maneira de tabelas onde a tag 'table' recebe um display 'table' fazendo com queos elementos internos como 'td' e 'tr' possam ser usados para montas uma tabela. Ex:
+- é a maneira de tabelas onde a tag 'table' recebe um display 'table' fazendo os elementos internos como 'td' e 'tr' possam ser usados para montas uma tabela. Ex:
 html
  <table>
      <tr>
@@ -20,14 +20,16 @@ html
          <td>20:30</td>
      </tr>
  </table>
-# Tabless
+
+# Tables
 
 - Uso das propriedades 'float', 'clear' para que os elementos possam mudar de posição na tela. Ex:
 html
 <div style="float: left;">esquerda</div>
 <div style="float: right;">direita</div>
 <div style="clear: both;">normal flow</div>
-# Flexbox
+
+# Flex-box
 
 - A caixa se torna flex, fazendo com que os elementos internos possam receber melhor:
 - Alinhamento
@@ -67,3 +69,29 @@ html
 
 - shorthand (maneira curta de escrever mais de uma propriedade)
 - flex-direction || flex-wrap (flex-flow junta esses dois)
+
+# justify-content
+
+- Alinhamento dos elementos dentro do container
+- Distribuição dos elementos
+  - Valores:
+  flex-start
+  flex-end
+  space-around
+  space-between
+  space-evenly
+# align-items
+
+- Alinhamento dos elementos no eixo cruzado
+  - Valores:
+  stretch (padrão)
+  flex-start
+  flex-end
+  center
+# gap
+
+- Espaços entre os elementos
+  - Valores:
+    Unidades de medidas
+    fixas: px, pt
+    flexíveis: %, em, rem
