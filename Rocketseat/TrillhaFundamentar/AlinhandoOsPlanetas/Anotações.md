@@ -1,7 +1,6 @@
 # Layouts e evolução
 
 - Layout tem a ver com a maneira que os elementos estão distribuídos na tela
-
 # Normal Flow
 
 - Flow Layout é a maneira que os elementos 'block' e 'inline' ficam na página. Ex:
@@ -20,7 +19,6 @@ html
          <td>20:30</td>
      </tr>
  </table>
-
 # Tables
 
 - Uso das propriedades 'float', 'clear' para que os elementos possam mudar de posição na tela. Ex:
@@ -28,7 +26,6 @@ html
 <div style="float: left;">esquerda</div>
 <div style="float: right;">direita</div>
 <div style="clear: both;">normal flow</div>
-
 # Flex-box
 
 - A caixa se torna flex, fazendo com que os elementos internos possam receber melhor:
@@ -69,7 +66,6 @@ html
 
 - shorthand (maneira curta de escrever mais de uma propriedade)
 - flex-direction || flex-wrap (flex-flow junta esses dois)
-
 # justify-content
 
 - Alinhamento dos elementos dentro do container
@@ -95,3 +91,18 @@ html
     Unidades de medidas
     fixas: px, pt
     flexíveis: %, em, rem
+# Propriedades para os itens
+
+- flex-basis
+- flex-grow
+  O crescimento do item dentro do container em relação aos espaços vazios.
+- flex-shrink
+  O encolher do item dentro do container
+- flex
+  Shorthand
+  flex-grow flex-shrink flex-shrink
+  podem ter 1,2 ou 3 valores
+- order
+# Desafio
+
+Style e o Index 

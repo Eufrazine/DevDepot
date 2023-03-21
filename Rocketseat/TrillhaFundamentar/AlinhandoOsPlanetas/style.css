@@ -1,11 +1,24 @@
 .container {
   display: flex;
-  align-items: center;
-  flex-direction: column;
   border: 1px dashed red;
-  height: 150px;
 }
 
 .container div {
-  border: 1px solid;
+  border: 2px solid greenyellow;
+}
+
+.container div:nth-child(1){
+ order: 4;
+}
+
+.container div:nth-child(2){
+order: 3;
+}
+
+.container div:nth-child(3){
+  order: 2;
+}
+
+.container div:nth-child(4){
+  order: 1;
 }
