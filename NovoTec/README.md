@@ -9,5 +9,6 @@
 <hr>
 
 ## 🎓 Atividades
-[ infobox tipo="note" titulo="Nota" texto="Atividades separadas conforme as demandas semanais" ]
+⚠ Atividades separadas conforme as demandas semanais
+
 <hr>
