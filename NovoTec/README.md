@@ -1,4 +1,4 @@
-<h2 align='center'>Repositório de Eufrazine dos Cursos do <br>NovoTec</br> 🍄</h2>
+<h2 align='center'>Repositório de Eufrazine dos Cursos do NovoTec 🍄</h2>
 
 <hr>
 
