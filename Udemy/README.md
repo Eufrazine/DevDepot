@@ -1,4 +1,4 @@
-# 👾 Repositório de Eufrazine dos Cursos da Udemy
+<h2 align='center'>Repositório de Eufrazine dos Cursos da <br>Udemy</br> 🍄</h2>
 
 <hr>
 
