@@ -1,30 +1,27 @@
- <html>
+<html>
+  <head>
+    <title>Usando eventos no Javascript</title>
+  </head>
 
- <head>
-     <title>Usando eventos no Javascript</title>
- </head>
-
- <body>
-    
-    
+  <body>
     <button onclick="myFunction()">Try it</button>
     <p id="demo"></p>
 
-    <!-- (<!--
+    <!--
         alert("vosso texto");
-    //-->) -->
-     <script language="Javascript">
-         function myFunction() {
-             var text = "";
-             var i;
-             for (i = 0; i < 5; i++) {
-                 text += "The number is " + i + "<br>";
-             }
-             document.getElementById("demo").innerHTML = text;
-         }
-     </script>
+    -->
+    <script language="Javascript">
+      function myFunction() {
+        var text = "";
+        var i;
+        for (i = 0; i < 5; i++) {
+          text += "The number is " + i + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+      }
+    </script>
 
-<!-- 
+    <!-- 
     1- a
     2- a
     3- a
@@ -36,7 +33,5 @@
     9- a
     10- b
  -->
-
- </body>
-
- </html>
+  </body>
+</html>
