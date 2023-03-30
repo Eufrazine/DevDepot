@@ -1,4 +1,4 @@
-<h2 align='center'>Repositório de Eufrazine dos Cursos da <br>RocketSeat</br> 🍄</h2>
+<h2 align='center'>Repositório de Eufrazine dos Cursos da RocketSeat 🍄</h2>
 
 <hr>
 

@@ -1,4 +1,4 @@
-<h2 align='center'>Repositório de Eufrazine dos Cursos do <b>Curso em Vídeo</b> 🍄</h2>
+<h2 align='center'>Repositório de Eufrazine dos Cursos do Curso em Vídeo 🍄</h2>
 
 <hr>
 
