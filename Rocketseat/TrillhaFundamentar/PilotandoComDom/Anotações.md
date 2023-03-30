@@ -85,5 +85,30 @@
     const script = document.querySelector('script')
     body.insertBefore(div, script)
 
-#     
-
+# Eventos
+- Adicionando eventos via HTML
+    function print() {
+    console.log('print')
+    }
+- Eventos de teclado (onkeydown, onkeyup e onkeypress)
+    const input = document.querySelector('input');
+    input.onkeydown = function(){
+        console.log('rodou!')
+    }
+- Adicionando eventos via JS
+    const h1 = document.querySelector('h1');
+    h1.addEventListener('click', print)
+    function print(){
+        console.log('imprimindo');
+    }
+- Adicionando eventos via JS (Outro método) (Existe o problema de ignorar a function existente anteriormente)
+    const h1 = document.querySelector('h1');
+    h1.onclick = print
+    function print(){
+        console.log('imprimindo!');
+    }
+- Argumento event (categoriza os eventos, bem legal pra saber detalhes do código digitado)
+    const input = document.querySelector('input');
+    input.onkeydown = function(event){
+        console.log(event) (para saber especificações: console.log(event.target, console.log(event.key), entre outros...))
+    }
