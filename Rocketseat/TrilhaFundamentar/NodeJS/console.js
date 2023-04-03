@@ -1,1 +1,1 @@
-console.log(require('path'))
+console.log("oi")
