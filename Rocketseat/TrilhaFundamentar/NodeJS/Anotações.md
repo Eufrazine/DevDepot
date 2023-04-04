@@ -41,16 +41,21 @@ Casos de uso = Netflix (utilizava JS de front e Java de back, trocaram para o No
 # Passando flags como argumento
 * process --name "Monique" --greeting "Tudo bem com você?"
 
-# NPM
+# NPM (okay, essa aula foi bem legal!)
 * Node Package Manager
 _Glossary: Dependencies, Packages, Modules_
-- [ ] Verificar se temos o npm instalado = npm -v
-- [ ] Criar nosso próprio pacote
-- [ ] O que é o arquivo package.json
-- [ ] Utilizar módulos de terceiros
-- [ ] O que é p diretório node_modules
-- [ ] O que é o arquivo package-lock.json
-- [ ] Criar scripts para rondar com o npm
+- [x] Verificar se temos o npm instalado = npm -v
+- [x] Criar nosso próprio pacote
+- [x] O que é o arquivo package.json
+- [x] Utilizar módulos de terceiros
+- [x] O que é p diretório node_modules
+- [x] O que é o arquivo package-lock.json
+- [x] Criar scripts para rondar com o npm
+    * "moment": "^2.29.4" = major.minor.patch
+    * outdated; upgrade; i (nome do pacote)@latest 
+- [x] Removendo pacotes
+    * uninstall (nome do pacote)
 <hr>
+
 * install -> i
 * -D = opção que informa que essa dependência é somente para desenvolvimento
