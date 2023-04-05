@@ -1,4 +1,4 @@
-// clearTimeout calcelar um timeOut
+// clearTimeout cancelar um timeOut
 const timeOut = 3000;
 const finished = () => console.log('done!');
 
