@@ -59,3 +59,26 @@ _Glossary: Dependencies, Packages, Modules_
 
 * install -> i
 * -D = opção que informa que essa dependência é somente para desenvolvimento
+
+# BestMe APP
+- Encontre sua melhor version?
+- Use o App ao final de cada dia para refletir sobre sua jornada.
+- O que vamos aprender? A se comunicar com o processo enquanto ele estiver rodando
+
+[x] process.stdout
+[x] process.stdin
+[x] process.on
+
+* Assincronismo = No momento que estamos realizando a entrada de informações, quando o usuário está digitando e aperta o enter, está acontecendo uma função assíncrona.
+
+1- Apresentando dados de entrada e assincronismo com process.stdout
+    - process.stdout.write que escreve a partir da comunicação com o processo
+2- Recebendo dados de entrada e assincronismo com process.stdin.on
+    - toda vez que tiver dados (data) ele vai executar uma função
+3- Lógica para apresentar perguntas e salvar respostas
+4- Finalizando e revisando
+    - process.on('exit', () => {}) Essa é uma função de call back 
+    - template literals = Também chamado de Template Strings é um recurso da linguagem que permite declarar strings dentro das quais podemos interpolar valores ou ainda quebrar o texto em múltiplas linhas.
+
+# Timers
+- Uma maneira de trabalharmos com o tempo dentro do NodeJS
