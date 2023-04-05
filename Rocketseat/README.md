@@ -9,6 +9,6 @@
 <hr>
 
 ## 🎓 Cursos
-* [Trilha Fundamentar](https://github.com/Eufrazine/Projects/tree/main/Rocketseat/TrillhaFundamentar)
+* [Trilha Fundamentar](https://github.com/Eufrazine/Projects/tree/main/Rocketseat/TrilhaFundamentar)
 
 <hr>
