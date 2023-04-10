@@ -110,6 +110,7 @@ console.log(\_\_dirname)
 
 -   O que vamos aprender?
     [] Utilizar os eventos
+    -> const events = require('events'); & EventEmitter;
     [] Disparar eventos
     [] Ouvir eventos
     [] Executar ações para determinados eventos
