@@ -9,6 +9,7 @@
 *   Uma função é importante para o agrupamento e reutilização de código.
 *   Exemplo =
     [x] Criar um aplicativo de frases motivacionais
+    [x] executar a função ou rodar, chamar, invocar execute, run, call, invoke
 
 -   declaration = declaração da função
 
@@ -18,9 +19,6 @@ console.log('O tumulto é a linguagem daqueles que ninguém entende. — Martin 
 console.log('Temos de aprender a viver todos como irmãos ou morreremos todos como loucos. — Martin Luther King')
 console.log('O que me preocupa não é o grito dos maus. É o silêncio dos bons. — Martin Luther King')
 }
-
--   executar a função ou rodar, chamar, invocar execute, run, call, invoke
-
 createPhrases()
 console.log('Fim do programa!')
 console.log('eu sou boba..')
@@ -95,9 +93,9 @@ sum(2, 3)
 
 *   Exemplo =
     Funções construtoras - Function() constructor
-    _ expressão new
-    _ criar um novo objeto
-    \_ this ketword
+    [x] expressão new
+    [x] criar um novo objeto
+    [x] this ketword
 
 function Person(name){
 this.name = name
@@ -124,14 +122,14 @@ console.log(yuta.walk())
 
 -   let string = "123"
     console.log(Number(string))
-    let number = 321
+-   let number = 321
     console.log(String(number))
 
 # Contando caracteres e dígitos
 
 -   let word = "Paralelepípedo"
     console.log(word.length)
-    let number = 1234
+-   let number = 1234
     console.log(String(number).length)
 
 # Casas decimais
@@ -155,10 +153,10 @@ console.log(yuta.walk())
 
 # Encontrando palavras em frases
 
--   Para verificar se um texto possui uma palavra específica, podemos usar o método includes(), passando como argumento a palavra a ser verificada, que retorna um valor true se encontrar a palavra, e falso se não, lembrando sempre que o método é case sensitive. Exemplo =
+-   Para verificar se um texto possui uma palavra específica, podemos usar o método includes(), passando como argumento a palavra a ser verificada, que retorna um valor true se encontrar a palavra, e falso se não, lembrando sempre que o método é case sensitive.
 
-*   Verificar se o texto contém a palavra escolhida no caso, Okay
-
+*   Exemplo =
+    [x] Verificar se o texto contém a palavra escolhida no caso, Okay
     let phrase = "It'll Be Okay"
     console.log(phrase.includes("Okay"))
 
@@ -166,13 +164,13 @@ console.log(yuta.walk())
 
 -   let techs = ["html", "css", "js"]
 
-*   adicionar um item no fim -> console.log(techs.push("nodejs"))
-*   adicionar no começo -> techs.unshift("sql")
-*   remover do fim -> techs.pop()
-*   remover o começo -> techs.shift()
-*   pegar somente alguns elementos do array -> console.log(techs.slice(1, 3))
-*   remover 1 ou mais items em qualquer posição do array -> techs.splice(1, 2)
-*   encontrar a posição de um elemento no array -> let index = techs.indexOf('css') techs.splice(index, 1)
+-   adicionar um item no fim -> console.log(techs.push("nodejs"))
+-   adicionar no começo -> techs.unshift("sql")
+-   remover do fim -> techs.pop()
+-   remover o começo -> techs.shift()
+-   pegar somente alguns elementos do array -> console.log(techs.slice(1, 3))
+-   remover 1 ou mais items em qualquer posição do array -> techs.splice(1, 2)
+-   encontrar a posição de um elemento no array -> let index = techs.indexOf('css') techs.splice(index, 1)
     console.log(index)
 
 # Expressões e operadores
@@ -390,7 +388,7 @@ console.log(2 \*\* 3)
 # For
 
 -   A estrutura de repetição for tem a seguinte sintaxe:
-    for(inicialização de uma variável; condição de continuação para o loop; expressão final).
+    for (inicialização de uma variável; condição de continuação para o loop; expressão final).
 -   Estrutura de repetição
 -   for
 -   break para a execução
@@ -425,7 +423,7 @@ console.log(2 \*\* 3)
 # For of
 
 -   for of
-    _-_ Manuel de Dear.M
+-   Manuel de Dear.M
 
 let name = 'Haneul'
 let names = ['Monique', 'Iguinho', 'Juninho'] -> ! Uma array
