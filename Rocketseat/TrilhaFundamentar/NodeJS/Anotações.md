@@ -111,9 +111,15 @@ console.log(\_\_dirname)
 *   É a base para muitos outros módulos como: http, steam, file system, etc...
 
 -   O que vamos aprender?
-    [] Utilizar os eventos
+    [x] Utilizar os eventos
     -> const events = require('events'); & EventEmitter;
-    [] Disparar eventos
-    [] Ouvir eventos
-    [] Executar ações para determinados eventos
-    [] Entender como ele é a base para os outros módulos
+    [x] Disparar eventos
+    ev.emit('saySomething')
+    [x] Ouvir eventos
+    ev.on('saySomething', () => {
+    console.log('Eu ouvi você!')
+    })
+    [x] Ouvir uma única vez -> ev.once
+    [x] Executar ações para determinados eventos
+    inherits -> herdamos para o nosso Character todas as opções do EventEmitter
+    [x] Entender como ele é a base para os outros módulos
