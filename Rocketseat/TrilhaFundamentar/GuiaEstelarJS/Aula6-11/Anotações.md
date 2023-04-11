@@ -7,7 +7,7 @@
 *   Funções são tipos de dados estruturais, que são declarados dessa forma:
 *   function nomeFunção() { código à ser executado } e para executar a função, usa-se: nomeFunção()
 *   Uma função é importante para o agrupamento e reutilização de código.
-*   exemplo =
+*   Exemplo =
     [x] Criar um aplicativo de frases motivacionais
 
 -   declaration = declaração da função
@@ -43,7 +43,7 @@ sum(2, 3)
 
 -   Parâmetros, mesmo se tiverem o mesmo nome que alguma outra variável do seu código, são apenas modificados e persistem no escopo da função.
 
-*   exemplo =
+*   Exemplo =
     let subject = 'create vídeo'
     function createThink(subject) {
     subject = 'study'
@@ -56,7 +56,7 @@ sum(2, 3)
 
 -   O JavaScript possui function hoisting, permitindo que uma função seja declarada depois de ser utilizada, pois faz algo similar a elevar no código declarações de funções. Porém isso não acontece dentro de variáveis.
 
-*   exemplo =
+*   Exemplo =
     sayMyName()
     function sayMyName(){
     console.log('Monique')
@@ -66,7 +66,7 @@ sum(2, 3)
 
 -   Também podemos escrever funções expression de uma maneira mais compacta, desta maneira: () => { código a ser executado }, chamada de Arrow Function.
 
-*   exemplo =
+*   Exemplo =
     const sayMyName = () => {
     console.log('Monique')
     }
@@ -76,7 +76,7 @@ sum(2, 3)
 
 -   Uma callback(chame de volta) function é uma função que está sendo passada para outra função como parâmetro.
 
-*   exemplo
+*   Exemplo
     function sayMyName(name){
     console.log('Antes de executar a função callback')
     name()
@@ -87,31 +87,28 @@ sum(2, 3)
         sayMyName(
         () => {
         console.log('Estou em uma callback(chame de volta)')
-        }
-        )
+        })
 
 # Funções construtoras
 
 -   Utilizadas para criar novos objetos e geralmente tem a sua primeira letra maiúscula, todos com as mesmas características que são criadas na função, usando a palavra reservada this para se referir ao objeto sendo criado.
 
-*   exemplo =
-    /_ Funções construtoras - Function() constructor
+*   Exemplo =
+    Funções construtoras - Function() constructor
     _ expressão new
     _ criar um novo objeto
-    _ this ketword
-    \*/
+    \_ this ketword
 
-    function Person(name){
-    this.name = name
-    this.walk = function(){
-    return this.name + " está andando!"
-    }
-    }
+function Person(name){
+this.name = name
+this.walk = function(){
+return this.name + " está andando!"
+}}
 
-    const monique = new Person("Monique")
-    const yuta = new Person("Yuta")
-    console.log(monique.walk())
-    console.log(yuta.walk())
+const monique = new Person("Monique")
+const yuta = new Person("Yuta")
+console.log(monique.walk())
+console.log(yuta.walk())
 
 # Prototype
 
@@ -169,38 +166,18 @@ sum(2, 3)
 
 -   let techs = ["html", "css", "js"]
 
-_-_ adicionar um item no fim
-console.log(techs.push("nodejs"))
-
--   adicionar no começo
-    techs.unshift("sql")
--   remover do fim
-    techs.pop()
--   remover o começo
-    techs.shift()
--   pegar somente alguns elementos do array
-    console.log(techs.slice(1, 3))
--   remover 1 ou mais items em qualquer posição do array
-    techs.splice(1, 2)
--   encontrar a posição de um elemento no array
-    let index = techs.indexOf('css')
-    techs.splice(index, 1)
-
-console.log(index)
+*   adicionar um item no fim -> console.log(techs.push("nodejs"))
+*   adicionar no começo -> techs.unshift("sql")
+*   remover do fim -> techs.pop()
+*   remover o começo -> techs.shift()
+*   pegar somente alguns elementos do array -> console.log(techs.slice(1, 3))
+*   remover 1 ou mais items em qualquer posição do array -> techs.splice(1, 2)
+*   encontrar a posição de um elemento no array -> let index = techs.indexOf('css') techs.splice(index, 1)
+    console.log(index)
 
 # Expressões e operadores
 
--   Expressões são bem tranquilas, porque expressões são qualquer linha de código que resolve alguma coisa no JavaScript, um exemplo é a expressão: let number
-
-*   Expressions
-*   Operator
-*   Binary
-    let number = 1
-    console.log(number + 1)
-*   Unary
-    let number = 1
-*   Ternary
-    console.log(true ? 'alo' : 'nada')
+-   Expressões são bem tranquilas, porque expressões são qualquer linha de código que resolve alguma coisa no JavaScript, um exemplo é a expressão: let numb -> r
 
 # New
 
@@ -233,15 +210,15 @@ console.log(2 \*\* 3)
 
 # Grouping operator ()
 
--   Vamos falar sobre um operador que agrupa expressões, os parênteses.
-    Na matemática, temos uma noção de precedência, onde certos operadores têm de ser realizados primeiro, e não é diferente para um computador, porém, podemos utilizar os parênteses para realizar o agrupamento de alguns operadores, que moverá a precedência do cálculo.
+-   Parênteses = operador que agrupa expressões
+
+*   Na matemática, temos uma noção de precedência, onde certos operadores têm de ser realizados primeiro, e não é diferente para um computador, porém, podemos utilizar os parênteses para realizar o agrupamento de alguns operadores, que moverá a precedência do cálculo.
     let total = (2 + 3) \* 5
     console.log(total)
 
 # Operadores de comparação igual a e diferente de
 
 -   Irá comparar valores e retornar um Boolean como resposta à comparação
-
     let one = 1
     let two = 2
 
@@ -257,7 +234,6 @@ console.log(2 \*\* 3)
 # Operadores de comparação estritamente igual e estritamente diferente
 
 -   Irá comparar valores e retornar um Boolean como resposta à comparação
-
     let one = 1
     let two = 2
 
@@ -271,38 +247,18 @@ console.log(2 \*\* 3)
 
 # Operadores de atribuição (assignment)
 
-    Quando falamos em atribuição, queremos na verdade dizer assignment, que já vimos bastante, mas podemos também realizar diferentes tipos de atribuição, usando operadores aritméticos. Exemplo =
-    - Irá comparar valores e retornar um Boolean como resposta à comparação
-
-    let x
-
--   assignment
-    x = 1
-
--   addition assignment
--   x = x + 2
-    x += 2
-
--   subtraction assignment
--   x = x - 1
-    x -= 1
-
--   multiplication assignment
--   x = x _ 2
-    x _= 2
-
--   division assignment
--   x = x / 2
-    x /= 2
-
--   remainder exponentiation
--   x = x % 2
-    x %= 2
+-   Quando falamos em atribuição, queremos na verdade dizer assignment, que já vimos bastante, mas podemos também realizar diferentes tipos de atribuição, usando operadores aritméticos. Exemplo =
+    [X] Irá comparar valores e retornar um Boolean como resposta à comparação -> let x
+-   assignment -> x = 1
+-   addition assignment -> x = x + 2 -> x += 2
+-   subtraction assignment -> x = x - 1 -> x -= 1
+-   multiplication assignment -> x = x _ 2 -> x _= 2
+-   division assignment -> x = x / 2 -> x /= 2
+-   remainder exponentiation -> x = x % 2 -> X %= 2
 
 # Operadores lógicos (logical operators)
 
 -   2 valores booleanos, quando verificados, resultará em verdadeiro ou falso
-
     let pao = true
     let queijo = true
 
@@ -319,7 +275,7 @@ console.log(2 \*\* 3)
 
 -   Os operadores ternários, conhecidos como operadores de >condição<, como o nome sugere, são dependentes de condições e podem entregar valores diferentes com base nelas.
 
-*   exemplo =
+*   Exemplo =
     Condição então valor 1 se não valor 2
     condition ? value1 : value2
     let pao = true
@@ -327,7 +283,8 @@ console.log(2 \*\* 3)
     const niceBreakfast = pao && queijo ? 'Café top' : 'Café ruim'
     console.log(niceBreakfast)
 
--   Mais um exemplo =
+*   Mais um exemplo =
+
 -   Maior de 18
     let age = 18
     const canDrive = age >= 18 ? 'Can Drive! :D' : 'Cannot drive :c'
@@ -341,7 +298,7 @@ console.log(2 \*\* 3)
     console.log('a' + 'a')
     -   nesse caso, o retorno da string seria aa.
 
-*   exemplo =
+*   Exemplo =
 
 -   comparison (comparação)
 -   console.log('a' == 'a')
@@ -357,32 +314,15 @@ console.log(2 \*\* 3)
 # Falsy e truthy
 
 -   O falsy é quando um valor é considerado falso em contextos que onde um booleano é obrigatório (condicionais e loops), exemplo a seguir:
-    Todos os valores abaixo seriam representados como false em um boolean.
-    false
-    0
-    -0
-    ""
-    null
-    undefined
-    NaN
-    console.log( NaN ? 'verdadeiro' : 'falso' )
--   Todos os valores abaixo seriam representados como false em um boolean.
-    true
-    {}
-    []
-    1
-    3.23
-    "0"
-    "false"
-    -1
-    Infinity
-    -Infinity
+
+*   Todos os valores abaixo seriam representados como false em um boolean = false; 0; -0; ""; null; undefined & NaN
+*   Todos os valores abaixo seriam representados como false em um boolean = true; {}; []; 1; 3.23; "0"; "false"; -1; Infinity & -Infinity
 
 # Precedência dos operadores IMPORTANTE
 
--   Nesta aula mostraremos a precedência dos operadores, ou seja, a ordem de importância de cada um deles.
--   De cima para baixo, do mais importante ao menos importante.
+-   Precedência dos operadores, ou seja, a ordem de importância de cada um deles.
 
+*   De cima para baixo, do mais importante ao menos importante.
     grouping ( )
     negação e incremento ! ++ --
     multiplicação e divisão _ /
@@ -395,26 +335,23 @@ console.log(2 \*\* 3)
     assignment (atribuição) = += -= _= %=
     ! true = 1 && false = 0
 
-    -   exemplo =
-        console.log(2 + 5 \_ 10
-        -   resultado 52
-            console.log((2 + 5) \_ 10
-        -   resultado 70
-            console.log(3 > 2 && 2 > 1
-        -   resultado= (true e true) são true
-
-# Controle de fluxo da aplicação (Control flow)
-
-    Nas próximas aulas falaremos sobre o controle de fluxo de nossa aplicação. O fluxo padrão vai linha a linha executando todas as linhas, mas nós podemos alterar isso com o que vamos aprender neste módulo.
+-   Exemplo =
+    console.log(2 + 5 \_ 10)
+    -   resultado 52
+        console.log((2 + 5) \_ 10)
+    -   resultado 70
+        console.log(3 > 2 && 2 > 1)
+    -   resultado= (true e true) são true
 
 # If e Else
 
--   Vamos falar sobre o if e o else, que ajudam nossa aplicação a tomar diferentes caminhos, ou seja, alteram o fluxo da nossa aplicação. Exemplo =
+-   Vamos falar sobre o if e o else, que ajudam nossa aplicação a tomar diferentes caminhos, ou seja, alteram o fluxo da nossa aplicação. Assim =
     if (condição) {
     apenas será executado o bloco de código caso condição seja true
     } else { - apenas será executado o bloco de código caso condição do if seja false
     }
 
+*   Exemplo =
     let temperature = 36.5
     if(temperature >= 37){
     console.log('Febre')
@@ -424,36 +361,17 @@ console.log(2 \*\* 3)
 
 # Switch
 
-    Vamos usar uma declaração chamada switch, que tem um papel muito similar ao if e ao else if, vistos na aula passada, porém a estrutura é bem diferente, e aqui veremos essa estrutura.
-
-function calculate(number1, operator, number2) {
-let result = 0;
-switch (operator) {
-case '+':
-result = number1 + number2
-break
-case '-':
-result = number1 - number2
-break
-case '_':
-result = number1 _ number2
-break
-case '/':
-result = number1 / number2
-break
-default:
-console.log('não implementado')
-break
-}
-return result
-}
-console.log(calculate(4, '%', 8))
+-   Vamos usar uma declaração chamada switch, que tem um papel muito similar ao if e ao else if, vistos na aula passada, porém a estrutura é bem diferente, e aqui veremos essa estrutura.
 
 # Throw e Try/Catch
 
 -   Throw em inglês significa lançar, disparar, catch quer dizer pegar e try tentar.
--   Isso significa que vamos tentar executar um bloco de código, e se der algum erro, será disparado e capturado na nossa aplicação. Suponhamos que haja uma função que dispare um erro caso não seja passado um parâmetro dessa função. Exemplo =
--   throw
+
+*   Isso significa que vamos tentar executar um bloco de código, e se der algum erro, será disparado e capturado na nossa aplicação. Suponhamos que haja uma função que dispare um erro caso não seja passado um parâmetro dessa função.
+
+-   Exemplo =
+
+*   throw
     function sayMyName(name = ''){
     if(name === ''){
     throw new Error("O nome é obrigatório")
@@ -461,7 +379,7 @@ console.log(calculate(4, '%', 8))
     console.log('Depois do erro')
     }
 
--   try...catch
+*   try...catch
     try {
     sayMyName()
     }catch(e){
@@ -472,28 +390,32 @@ console.log(calculate(4, '%', 8))
 # For
 
 -   A estrutura de repetição for tem a seguinte sintaxe:
-    for(inicialização de uma variável; condição de continuação para o loop; expressão final). Exemplo =
-    -   Estrutura de repetição
-    -   for
+    for(inicialização de uma variável; condição de continuação para o loop; expressão final).
+-   Estrutura de repetição
+-   for
 -   break para a execução
 -   continue - pula a execução do momento
+
+*   Exemplo =
     for(let i = 0; i < 10; i++){
     console.log(i)
     }
-    -   A variável i é menor que 10? Sim, então ele incrementa mais 1, isso acontecerá até que o 1 seja igual a 10
-        Outro exemplo =
-        for(let i = 10; i > 0; i--){
-        if(i === 5){
-        break;
-        }
-        console.log(i)
-        }
+
+-   A variável i é menor que 10? Sim, então ele incrementa mais 1, isso acontecerá até que o 1 seja igual a 10
+
+*   Outro exemplo =
+    for(let i = 10; i > 0; i--){
+    if(i === 5){
+    break;
+    }
+    console.log(i)
+    }
 
 # While
 
 -   Estrutura de repetição
--   While (enquanto)
 
+*   While (enquanto)
     let i = 0;
     while(i < 10){
     console.log(i)
@@ -503,27 +425,22 @@ console.log(calculate(4, '%', 8))
 # For of
 
 -   for of
--   Manuel de Dear.M
+    _-_ Manuel de Dear.M
 
-    let name = 'Haneul'
-    let names = ['Monique', 'Iguinho', 'Juninho'
-
-    -   Uma array
-
-    for(let elemento of names){
-    console.log(elemento)
-    }
+let name = 'Haneul'
+let names = ['Monique', 'Iguinho', 'Juninho'] -> ! Uma array
+for(let elemento of names){
+console.log(elemento)
+}
 
 # For in
 
 -   for in
-
     let person = {
     name: 'Jae',
     age: 25,
     weight: 68.5
     }
-
     for(let property in person){
     console.log(property)
     console.log(person[property])

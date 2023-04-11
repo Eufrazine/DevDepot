@@ -39,7 +39,7 @@ _/
     uncionalidades / Métodos  
     { propriedade : "valor"}
 
-*   exemplo
+*   Exemplo =
     console.log({
     name : "Monique",
     idade : 18,
@@ -52,7 +52,8 @@ _/
 
 -   Uma lista
 -   Agrupamento de dados:
--   exemplo
+
+*   Exemplo =
     console.log([
     "Monique",
     18
@@ -65,14 +66,14 @@ _/
 -   Determina a visibilidade de uma variável em um código
 -   block statement, que é o código presente dentro de chaves
 
--   exemplo
+*   Exemplo =
     // vamos iniciar um bloco
     {
     // aqui dentro é um bloco e posso colocar qualquer código
 
 } // aqui fechamos o bloco
 
--   exemplo
+-   Exemplo =
     {
     let x = 0
     console.log(x)
@@ -83,7 +84,7 @@ _/
 -   var é um global e também local, poderá funcionar fora de um escopo de bloco
 -   isso abaixo é um scope, se estivesse abaixo do console, seria dado como "undefined", sendo um hoisting(eleva a cima)
 
--   exemplo
+*   Exemplo =
     {
     var x = 0
     }
@@ -93,7 +94,7 @@ _/
 
 -   É diferente do var, pois são variáveis com escopo loca, ou seja,só são visíveis no escopo onde foram criadas e em escopos interiores ao de criação
 
--   exemplo
+*   Exemplo =
     let y = 1;
     {
     let y = 0
@@ -132,7 +133,7 @@ _/
 -   Para atribuirmos valores à essa variável utilizamos o caractere =
 -   Para vermos o tipo dessa variável podemos utilizar a função console.log(typeof variável)
 
-*   exemplo
+*   Exemplo =
 
 -   assignment or atribuição de valores
 -   name = "Monique"
@@ -142,7 +143,7 @@ console.log(typeof name)
 
 # Concatenando e interpolando variáveis
 
--   exemplo
+-   Exemplo =
     let age, isHuman
 
 age = 18
@@ -161,7 +162,7 @@ console.log(`o ${name} tem ${age} anos!`)
 
 -   Para criarmos um objeto utilizamos as chaves envolvendo as propriedades, que são atribuídas com dois pontos
 
-*   exemplo
+*   Exemplo =
 
 const person = {
 name: 'John',
@@ -177,7 +178,7 @@ console.log(`${person.name} tem ${person.age} anos!`)
 -   Para criarmos um vetor utilizamos [ ] envolvendo os valores.
 -   Podemos entender assim: cada valore tem um número, começando do 0, podemos usar o [número] para pegar algo especifico, e o total de valores como .length
 
-*   exemplo
+*   Exemplo =
 
 const animals = [
 'Lion',
