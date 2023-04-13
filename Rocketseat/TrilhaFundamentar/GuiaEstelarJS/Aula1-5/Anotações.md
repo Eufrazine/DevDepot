@@ -1,4 +1,4 @@
-# Anotações sobre a Guia Estelar JS, das aulas 1 até a 5 (Praticando e avançando)
+# 🍄 Anotações sobre a Guia Estelar JS, das aulas 1 até a 5 (Praticando e avançando)
 
 ## A importância da Sintaxe
 

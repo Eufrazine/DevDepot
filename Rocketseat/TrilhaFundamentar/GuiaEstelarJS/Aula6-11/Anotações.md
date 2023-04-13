@@ -1,4 +1,4 @@
-## Anotações sobre a Guia Estelar JS, das aulas 5 até a 11 (Praticando e avançando)
+# 🍄 Anotações sobre a Guia Estelar JS, das aulas 5 até a 11 (Praticando e avançando)
 
 ## Functions
 

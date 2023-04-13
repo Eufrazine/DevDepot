@@ -1,4 +1,4 @@
-# Anotações sobre o Alinhando Os Planetas
+# 🍄 Anotações sobre o Alinhando Os Planetas
 
 ## Layouts e evolução
 

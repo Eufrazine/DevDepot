@@ -1,4 +1,4 @@
-# Anotações sobre a Guia NodeJS
+# 🍄 Anotações sobre a Guia NodeJS
 
 ## O que podemos fazer com o NodeJS?
 

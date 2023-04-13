@@ -1,4 +1,4 @@
-# Anotações sobre a Guia Estelar CSS
+# 🍄 Anotações sobre a Guia Estelar CSS
 
 ## Position
 

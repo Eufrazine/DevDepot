@@ -1,4 +1,4 @@
-# Anotações sobre a Guia Estelar HTML
+# 🍄 Anotações sobre a Guia Estelar HTML
 
 ## Adicionando a estrutura
 
