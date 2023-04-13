@@ -1,11 +1,11 @@
 {
-    "name": "NodeJS+EJS",
+    "name": "package.json",
     "version": "1.0.0",
     "description": "Desenvolver aplicações/serviços de forma fácil com NodeJS + EJS",
-    "main": "index.js",
+    "main": "",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node index.js"
+        "start": ""
     },
     "author": "Eufrazine",
     "license": "MIT",
