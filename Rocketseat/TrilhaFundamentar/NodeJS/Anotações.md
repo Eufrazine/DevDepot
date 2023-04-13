@@ -1,6 +1,6 @@
-## Anotações sobre a Guia NodeJS
+# Anotações sobre a Guia NodeJS
 
-# O que podemos fazer com o NodeJS?
+## O que podemos fazer com o NodeJS?
 
 -   Para que serve?
 
@@ -13,7 +13,7 @@
     I.A
     ! Se precisar de muito processamento ou seja, CPU, não é recomendado usar Node
 
-# Vantagens
+## Vantagens
 
 -   Rápido (Execução e Prototipar)
 -   Alta escabilidade
@@ -22,13 +22,13 @@
 -   Ecossistema gigante
     Casos de uso = Netflix (utilizava JS de front e Java de back, trocaram para o NodeJS) e Paypal
 
-# O que é
+## O que é
 
 -   JS Runtime Environment (Como um mini ambiente para executar JS)
     JavaScript Ambiente de execução
 -   Não é um Framework (React, Angular...) e nem uma Linguagem, pois a linguagem já é JavaScript.
 
-# Globais
+## Globais
 
 -Diretório loca, onde está o arquivo que estamos executando
 console.log(\_\_dirname)
@@ -36,24 +36,24 @@ console.log(\_\_dirname)
 -   Caminho completo + nome do arquivo
     console.log(\_\_filename)
 
-# O que são e como utilizar módulos?
+## O que são e como utilizar módulos?
 
 -   require('') = maneira de chamar módulos, nativos ou criar/instalar
 -   path.basename("...") = o nome base de tal arquivo
 
-# Criando módulos
+## Criando módulos
 
 -   exports
 
-# Pegando informações do processo
+## Pegando informações do processo
 
 -   process
 
-# Passando flags como argumento
+## Passando flags como argumento
 
 -   process --name "Monique" --greeting "Tudo bem com você?"
 
-# NPM (okay, essa aula foi bem legal!)
+## NPM (okay, essa aula foi bem legal!)
 
 -   Node Package Manager
     _Glossary: Dependencies, Packages, Modules_
@@ -73,7 +73,7 @@ console.log(\_\_dirname)
 -   install -> i
 -   -D = opção que informa que essa dependência é somente para desenvolvimento
 
-# BestMe APP
+## BestMe APP
 
 -   Encontre sua melhor version?
 -   Use o App ao final de cada dia para refletir sobre sua jornada.
@@ -90,7 +90,7 @@ console.log(\_\_dirname)
 3- Lógica para apresentar perguntas e salvar respostas
 4- Finalizando e revisando - process.on('exit', () => {}) Essa é uma função de call back - template literals = Também chamado de Template Strings é um recurso da linguagem que permite declarar strings dentro das quais podemos interpolar valores ou ainda quebrar o texto em múltiplas linhas.
 
-# Timers
+## Timers
 
 -   Uma maneira de trabalharmos com o tempo dentro do NodeJS
 -   O que vamos aprender
@@ -101,7 +101,7 @@ console.log(\_\_dirname)
 
 -   Iremos praticar um pouco mais de Assincronismo e Callbacks
 
-# Event Module
+## Event Module
 
 -   É um mecanismo para
 
@@ -111,6 +111,7 @@ console.log(\_\_dirname)
 *   É a base para muitos outros módulos como: http, steam, file system, etc...
 
 -   O que vamos aprender?
+    [x] ! Entender como ele é a base para os outros módulos
     [x] Utilizar os eventos
     -> const events = require('events'); & EventEmitter;
     [x] Disparar eventos
@@ -122,4 +123,3 @@ console.log(\_\_dirname)
     [x] Ouvir uma única vez -> ev.once
     [x] Executar ações para determinados eventos
     inherits -> herdamos para o nosso Character todas as opções do EventEmitter
-    [x] Entender como ele é a base para os outros módulos

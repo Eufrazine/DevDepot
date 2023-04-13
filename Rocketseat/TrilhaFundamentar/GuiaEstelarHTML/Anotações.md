@@ -1,12 +1,12 @@
-## Anotações sobre a Guia Estelar HTML
+# Anotações sobre a Guia Estelar HTML
 
-# Adicionando a estrutura
+## Adicionando a estrutura
 
 -   Somente digite !
 
 Exemplo: O base.html
 
-# Links
+## Links
 
 -   URLS/Caminhos absolutos vs relativos
 -   Absolutos
@@ -16,7 +16,7 @@ Exemplo: O base.html
     -   relativo à página aberta no momento
     -   apontará para lugares diferentes
 
-# Trabalhando com Elementos
+## Trabalhando com Elementos
 
 -   mostrar que é um código -> <code></code>
 -   cite — tag usada para colocar o citar link direto no texto -> <cite></cite>
@@ -28,6 +28,6 @@ Exemplo: O base.html
 -   Abreviações com <abbr>
     <p> Usamos <abbr title="Hypertext Markup Language">HTML</abbr> para estruturar nossos documentos da web. </p>
 
-# Exercícios
+## Exercícios
 
 -   Fizemos um mini site com o homepage, contact e images.

@@ -1,12 +1,12 @@
-## Anotações sobre a Guia Estelar JS, das aulas 1 até a 5 (Praticando e avançando)
+# Anotações sobre a Guia Estelar JS, das aulas 1 até a 5 (Praticando e avançando)
 
-# A importância da Sintaxe
+## A importância da Sintaxe
 
 -   Toda linguagem tem
 -   Uma boa comunicação necessita de uma boa sintaxe
 -   82% dos errors para iniciantes de programação
 
-# Comentário
+## Comentário
 
 // Isso é um comentário em linha
 /_ Comentário multi linha
@@ -14,25 +14,25 @@ ou
 comentário de bloco
 _/
 
-# Sintaxe
+## Sintaxe
 
 -   Toda linguagem tem
 -   Uma boa comunicação necessita de uma boa sintaxe
 -   82% dos erros para iniciantes de programação
 
-# Boolean
+## Boolean
 
 -   Somente 2 valores:
     []true = verdadeiro
     []false = falso
     -> console.log(false)
 
-# Undefined vs null
+## Undefined vs null
 
 -   Undefined (indefinido)
 -   null (nulo) -> objeto que não possui nada dentro diferente de indefinido
 
-# Object
+## Object
 
 -   Objeto:
     Propriedades / Atributos
@@ -48,7 +48,7 @@ _/
     }
     })
 
-# Array (vetores)
+## Array (vetores)
 
 -   Uma lista
 -   Agrupamento de dados:
@@ -61,7 +61,7 @@ _/
 
 ["Monique", 18]
 
-# Scope ou Escopo
+## Scope ou Escopo
 
 -   Determina a visibilidade de uma variável em um código
 -   block statement, que é o código presente dentro de chaves
@@ -79,7 +79,7 @@ _/
     console.log(x)
     }
 
-# var
+## var
 
 -   var é um global e também local, poderá funcionar fora de um escopo de bloco
 -   isso abaixo é um scope, se estivesse abaixo do console, seria dado como "undefined", sendo um hoisting(eleva a cima)
@@ -90,7 +90,7 @@ _/
     }
     console.log('> existe x antes do bloco', x)
 
-# scope let e const
+## scope let e const
 
 -   É diferente do var, pois são variáveis com escopo loca, ou seja,só são visíveis no escopo onde foram criadas e em escopos interiores ao de criação
 
@@ -102,7 +102,7 @@ _/
     }
     console.log('> existe y antes? ', y)
 
-# Nomeando variáveis
+## Nomeando variáveis
 
 -   Js é case-sensitive (sensível ao caso)
 -   Js aceita a cadeia de caracteres Unicode
@@ -127,7 +127,7 @@ _/
 -   snake*case (usando o * Check_If_Name_Exists)
 -   Escrever em inglês
 
-# Declaration assignment var
+## Declaration assignment var
 
 -   Para declarar uma variável podemos usar var, let e const
 -   Para atribuirmos valores à essa variável utilizamos o caractere =
@@ -141,7 +141,7 @@ _/
 // que tipo de dado foi colocado na variável:
 console.log(typeof name)
 
-# Concatenando e interpolando variáveis
+## Concatenando e interpolando variáveis
 
 -   Exemplo =
     let age, isHuman
@@ -158,7 +158,7 @@ console.log('A ' + name +' tem '+ age + ' anos!!')
 // interpolando valores com template literals ou template strings (OBRIGADA MAIK POR ISSO <3)
 console.log(`o ${name} tem ${age} anos!`)
 
-# Object
+## Object
 
 -   Para criarmos um objeto utilizamos as chaves envolvendo as propriedades, que são atribuídas com dois pontos
 
@@ -173,7 +173,7 @@ idAdmin: true
 
 console.log(`${person.name} tem ${person.age} anos!`)
 
-# Array
+## Array
 
 -   Para criarmos um vetor utilizamos [ ] envolvendo os valores.
 -   Podemos entender assim: cada valore tem um número, começando do 0, podemos usar o [número] para pegar algo especifico, e o total de valores como .length
@@ -191,4 +191,4 @@ age: 5
 
 -> acessar valores: console.log(animals[2].name)
 
-# Exercícios (no scripts)
+## Exercícios (no scripts)

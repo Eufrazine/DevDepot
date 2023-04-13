@@ -1,6 +1,6 @@
 ## Anotações sobre a Guia Estelar JS, das aulas 5 até a 11 (Praticando e avançando)
 
-# Functions
+## Functions
 
 -   Estrutura de dados
 
@@ -25,7 +25,7 @@ console.log('eu sou boba..')
 
 ! shift + alt + seta cima/baixo = copiar o código para baixo/cima
 
-# Argumentos e parâmetros
+## Argumentos e parâmetros
 
 -   function expression
 -   function anonymous
@@ -37,7 +37,7 @@ console.log(number1 + number2)
 arguments - argumentos
 sum(2, 3)
 
-# Function scope
+## Function scope
 
 -   Parâmetros, mesmo se tiverem o mesmo nome que alguma outra variável do seu código, são apenas modificados e persistem no escopo da função.
 
@@ -50,7 +50,7 @@ sum(2, 3)
     console.log(subject)
     console.log(createThink(subject))
 
-# Function Hoisting
+## Function Hoisting
 
 -   O JavaScript possui function hoisting, permitindo que uma função seja declarada depois de ser utilizada, pois faz algo similar a elevar no código declarações de funções. Porém isso não acontece dentro de variáveis.
 
@@ -60,7 +60,7 @@ sum(2, 3)
     console.log('Monique')
     }
 
-# Arrow function =>
+## Arrow function =>
 
 -   Também podemos escrever funções expression de uma maneira mais compacta, desta maneira: () => { código a ser executado }, chamada de Arrow Function.
 
@@ -70,7 +70,7 @@ sum(2, 3)
     }
     sayMyName()
 
-# Callback function
+## Callback function
 
 -   Uma callback(chame de volta) function é uma função que está sendo passada para outra função como parâmetro.
 
@@ -87,7 +87,7 @@ sum(2, 3)
         console.log('Estou em uma callback(chame de volta)')
         })
 
-# Funções construtoras
+## Funções construtoras
 
 -   Utilizadas para criar novos objetos e geralmente tem a sua primeira letra maiúscula, todos com as mesmas características que são criadas na função, usando a palavra reservada this para se referir ao objeto sendo criado.
 
@@ -108,39 +108,39 @@ const yuta = new Person("Yuta")
 console.log(monique.walk())
 console.log(yuta.walk())
 
-# Prototype
+## Prototype
 
 -   prototype-base language
 -   prototype chain
 -   _proto_
 
-# Type conversion e coersion
+## Type conversion e coersion
 
 -   alteração de um tipo de dado para outro tipo
 
-# Strings em números
+## Strings em números
 
 -   let string = "123"
     console.log(Number(string))
 -   let number = 321
     console.log(String(number))
 
-# Contando caracteres e dígitos
+## Contando caracteres e dígitos
 
 -   let word = "Paralelepípedo"
     console.log(word.length)
 -   let number = 1234
     console.log(String(number).length)
 
-# Casas decimais
+## Casas decimais
 
 -   Para determinar uma quantia de casas decimais de um número pode-se usar o método toFixed() colocando como argumento quantas casas decimais o número terá. Para mudar a formatação do número de separado por ponto para separado por vírgula é possível usar o método replace(".", ","). O resultado final será do tipo string, e a conversão para o tipo número não será possível por que a vírgula não é considerada parte de um número.
 
-# Maiúsculas e minúsculas
+## Maiúsculas e minúsculas
 
 -   Para transformar uma string em letras maiúsculas pode-se usar o método toUpperCase(), e ao contrário, também é possível usar o toLowerCase() para transformar uma string em todas letras minúsculas.
 
-# Separando strings e arrays
+## Separando strings e arrays
 
 -   Para separar um texto por espaços, pode-se usar o método split(" "), que transforma o texto em um array de strings baseado no argumento, que no caso são os espaços. Para juntar esse array é possível usar o método join('"), que juntaria essas palavras sem nenhum separador, porém colocando um argumento, no caso um underscore ( join("_") ) as palavras são juntadas com o argumento de separador. Exemplo =
     [x] Separe um texto que contem espaços, em um novo array onde cada texto é uma posição do array. Depois disso, transforme o array em um texto e onde eram espaços, coloque _
@@ -151,7 +151,7 @@ console.log(yuta.walk())
         let phraseWithUnderscore = myArray.join("\_")
         console.log(phraseWithUnderscore.toLowerCase())
 
-# Encontrando palavras em frases
+## Encontrando palavras em frases
 
 -   Para verificar se um texto possui uma palavra específica, podemos usar o método includes(), passando como argumento a palavra a ser verificada, que retorna um valor true se encontrar a palavra, e falso se não, lembrando sempre que o método é case sensitive.
 
@@ -160,7 +160,7 @@ console.log(yuta.walk())
     let phrase = "It'll Be Okay"
     console.log(phrase.includes("Okay"))
 
-# Manipulando Arrays
+## Manipulando Arrays
 
 -   let techs = ["html", "css", "js"]
 
@@ -173,11 +173,11 @@ console.log(yuta.walk())
 -   encontrar a posição de um elemento no array -> let index = techs.indexOf('css') techs.splice(index, 1)
     console.log(index)
 
-# Expressões e operadores
+## Expressões e operadores
 
 -   Expressões são bem tranquilas, porque expressões são qualquer linha de código que resolve alguma coisa no JavaScript, um exemplo é a expressão: let numb -> r
 
-# New
+## New
 
 [x] Criar um novo objeto
 let name = new String('Monique')
@@ -185,7 +185,7 @@ name.surName = "Vieira"
 let age = new Number(18)
 console.log(name, age)
 
-# Operadores aritméticos
+## Operadores aritméticos
 
 /_ resto da divisão: sinal % _/
 let remainder
@@ -206,7 +206,7 @@ console.log(decrement)
 /_ exponencial: sinal \*\* _/
 console.log(2 \*\* 3)
 
-# Grouping operator ()
+## Grouping operator ()
 
 -   Parênteses = operador que agrupa expressões
 
@@ -214,7 +214,7 @@ console.log(2 \*\* 3)
     let total = (2 + 3) \* 5
     console.log(total)
 
-# Operadores de comparação igual a e diferente de
+## Operadores de comparação igual a e diferente de
 
 -   Irá comparar valores e retornar um Boolean como resposta à comparação
     let one = 1
@@ -229,7 +229,7 @@ console.log(2 \*\* 3)
     console.log(one != 1)
     console.log(one != "1")
 
-# Operadores de comparação estritamente igual e estritamente diferente
+## Operadores de comparação estritamente igual e estritamente diferente
 
 -   Irá comparar valores e retornar um Boolean como resposta à comparação
     let one = 1
@@ -243,7 +243,7 @@ console.log(2 \*\* 3)
     console.log(one !== 2)
     console.log(one !== "2")
 
-# Operadores de atribuição (assignment)
+## Operadores de atribuição (assignment)
 
 -   Quando falamos em atribuição, queremos na verdade dizer assignment, que já vimos bastante, mas podemos também realizar diferentes tipos de atribuição, usando operadores aritméticos. Exemplo =
     [X] Irá comparar valores e retornar um Boolean como resposta à comparação -> let x
@@ -254,7 +254,7 @@ console.log(2 \*\* 3)
 -   division assignment -> x = x / 2 -> x /= 2
 -   remainder exponentiation -> x = x % 2 -> X %= 2
 
-# Operadores lógicos (logical operators)
+## Operadores lógicos (logical operators)
 
 -   2 valores booleanos, quando verificados, resultará em verdadeiro ou falso
     let pao = true
@@ -269,7 +269,7 @@ console.log(2 \*\* 3)
 -   NOR !
     console.log(!pao)
 
-# Operador condicional ternário
+## Operador condicional ternário
 
 -   Os operadores ternários, conhecidos como operadores de >condição<, como o nome sugere, são dependentes de condições e podem entregar valores diferentes com base nelas.
 
@@ -289,7 +289,7 @@ console.log(2 \*\* 3)
 
     console.log(canDrive)
 
-# Operadores para string (String operator)
+## Operadores para string (String operator)
 
 -   Temos também os string operators, os operadores de string, e nós até já vimos um desses antes, o comparison operator, ou ==, para os mais íntimos. Agora vamos ver sobre a concatenação, que é o retorno da união de duas strings.
 -   Seu símbolo é o de + (positivo), e seu uso é simples, algo próximo de:
@@ -309,14 +309,14 @@ console.log(2 \*\* 3)
     console.log(alpha += 'bets')
     -   Retorna alphabets
 
-# Falsy e truthy
+## Falsy e truthy
 
 -   O falsy é quando um valor é considerado falso em contextos que onde um booleano é obrigatório (condicionais e loops), exemplo a seguir:
 
 *   Todos os valores abaixo seriam representados como false em um boolean = false; 0; -0; ""; null; undefined & NaN
 *   Todos os valores abaixo seriam representados como false em um boolean = true; {}; []; 1; 3.23; "0"; "false"; -1; Infinity & -Infinity
 
-# Precedência dos operadores IMPORTANTE
+## Precedência dos operadores IMPORTANTE
 
 -   Precedência dos operadores, ou seja, a ordem de importância de cada um deles.
 
@@ -341,7 +341,7 @@ console.log(2 \*\* 3)
         console.log(3 > 2 && 2 > 1)
     -   resultado= (true e true) são true
 
-# If e Else
+## If e Else
 
 -   Vamos falar sobre o if e o else, que ajudam nossa aplicação a tomar diferentes caminhos, ou seja, alteram o fluxo da nossa aplicação. Assim =
     if (condição) {
@@ -357,11 +357,11 @@ console.log(2 \*\* 3)
     console.log('saudável')
     }
 
-# Switch
+## Switch
 
 -   Vamos usar uma declaração chamada switch, que tem um papel muito similar ao if e ao else if, vistos na aula passada, porém a estrutura é bem diferente, e aqui veremos essa estrutura.
 
-# Throw e Try/Catch
+## Throw e Try/Catch
 
 -   Throw em inglês significa lançar, disparar, catch quer dizer pegar e try tentar.
 
@@ -385,7 +385,7 @@ console.log(2 \*\* 3)
     }
     console.log('Após a função de erro!')
 
-# For
+## For
 
 -   A estrutura de repetição for tem a seguinte sintaxe:
     for (inicialização de uma variável; condição de continuação para o loop; expressão final).
@@ -409,7 +409,7 @@ console.log(2 \*\* 3)
     console.log(i)
     }
 
-# While
+## While
 
 -   Estrutura de repetição
 
@@ -420,7 +420,7 @@ console.log(2 \*\* 3)
     i++;
     }
 
-# For of
+## For of
 
 -   for of
 -   Manuel de Dear.M
@@ -431,7 +431,7 @@ for(let elemento of names){
 console.log(elemento)
 }
 
-# For in
+## For in
 
 -   for in
     let person = {
@@ -444,4 +444,4 @@ console.log(elemento)
     console.log(person[property])
     }
 
-# Exercícios (no scripts)
+## Exercícios (no scripts)
