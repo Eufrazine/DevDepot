@@ -1,0 +1,15 @@
+{
+    "name": "NodeJS+EJS",
+    "version": "1.0.0",
+    "description": "Desenvolver aplicações/serviços de forma fácil com NodeJS + EJS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "Eufrazine",
+    "license": "MIT",
+    "devDependencies": {
+        "cfonts": "^3.1.1"
+    }
+}
