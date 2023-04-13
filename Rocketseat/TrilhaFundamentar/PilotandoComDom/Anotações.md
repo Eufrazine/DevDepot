@@ -64,7 +64,7 @@
     element.classList.add('')
     console.log(elemento.classList)
 
-# Navegando pelos elementos
+## Navegando pelos elementos
 
 -   parentElement e parentNode
     const body = document.querySelector('body');
@@ -80,7 +80,7 @@
         const el = document.querySelector('header');
         console.log(el.nextElementSibling)
 
-# Criando e adicionando elementos na página
+## Criando e adicionando elementos na página
 
 -   // createElement
     const div = document.createElement('div');
@@ -97,7 +97,7 @@
     const script = document.querySelector('script')
     body.insertBefore(div, script)
 
-# Eventos
+## Eventos
 
 -   Adicionando eventos via HTML
     function print() {
