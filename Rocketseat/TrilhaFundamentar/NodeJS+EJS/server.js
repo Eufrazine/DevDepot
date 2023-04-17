@@ -7,23 +7,25 @@ app.get('/', function (req, res) {
     const items = [
         {
             title: "H",
-            message: "Hoseok ta indo pro exercito"
+            message: "oseok ta indo pro exercito"
         },
         {
             title: "O",
-            message: "O mais lindo dos sóis"
+            message: "mais lindo dos sóis"
         },
         {
             title: "B",
-            message: "Bonito e gentil"
+            message: "onito e gentil"
         },
         {
             title: "I",
-            message: "Indo embora, mas eu vou esperar 💜"
+            message: "ndo embora, mas eu vou esperar enquanto aprendo EJS 💜"
         }
     ];
+    const subtitle = "EJS é uma linguagem de modelagem para crianção de página HTML"
     res.render('pages/index.ejs', {
         qualitys: items,
+        subtitle: subtitle,
     });
 });
 
@@ -32,4 +34,4 @@ app.get('/sobre', function (req, res) {
 });
 
 app.listen(8080);
-console.log('Rodando');
+console.log('Servidor funcionando!');

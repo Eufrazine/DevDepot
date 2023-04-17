@@ -4,9 +4,11 @@
         <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
             <li class="nav-item">
-                <a class="nav-link" href="/sobre">Sobre</a>
+                <a class="nav-link" href="../pages/about.ejs">Sobre</a>
             </li>
         </ul>
     </nav>
-    <p>Página: <%= typeof pagina != 'undefined' ? pagina: 'Home' %></p>
+    <p class="navbar navbar-expand-lg navbar-light bg-light">
+        Página: <%= typeof pagina != 'undefined' ? pagina: 'Home' %>
+    </p>
 </header>
