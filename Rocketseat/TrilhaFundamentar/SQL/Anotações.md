@@ -21,11 +21,13 @@
 
 ## Conceitos
 
--   Tabelas = Divididas em linhas e colunas conforme a nescessidade.
--   Campos = Nome das informações, no caso "Nome" "Nome de usuário" e "Descrição"
--   Informações = Informações cadastradas em cada campo, "Junior", @j_hope, etc...
+-   Comando SQL sempre em maiúsculo
 
-*   Exemplo =
+*   Tabelas = Divididas em linhas e colunas conforme a nescessidade.
+*   Campos = Nome das informações, no caso "Nome" "Nome de usuário" e "Descrição"
+*   Informações = Informações cadastradas em cada campo, "Junior", @j_hope, etc...
+
+-   Exemplo =
 
 | Nome   | Nome de usuário | Descrição            | Telefone    | id user |
 | ------ | --------------- | -------------------- | ----------- | ------- |
@@ -52,9 +54,9 @@
     |Telefone: Number|
     |id_user: NUMBER PRIMARY KEY|
 
-| Tabela: post        |
+| Tabela: post          |
 | --------------------- |
-| Nome_de_usario: TEXT |
+| Nome_de_usuario: TEXT |
 | Post: TEXT            |
 | Video: Number         |
 | data: DATATIME        |
@@ -72,3 +74,23 @@
 4 - Não pode conter acentuação
 
 ## Comando SELECT
+
+-   Buscar informações
+
+*   "\*" = todas as informações
+*   "from" = de onde, de qual tabela
+
+## SELECT especificando campos
+
+-   nome, responsavel = campos específicos
+
+## SELECT com WHERE
+
+-   Exemplo: SELECT * FROM aluno WHERE matricula = 1
+
+*   Procuramos os dados somente do aluno cuja matricula é = 1
+
+-   Outro Exemplo: SELECT * FROM aluno WHERE nome like "j%"
+
+*   like = parecido, contendo, igual, etc
+*   "j%" = buscando nomes que começam com j, % = não me importa o que vem depois como é
