@@ -1,4 +1,4 @@
-<h2 align='center'>Repositório de Eufrazine dos Cursos do NovoTec 🍄</h2>
+<h2 align='center'>Repositório de Monique dos Cursos do NovoTec 🍄</h2>
 
 <hr>
 
@@ -9,6 +9,7 @@
 <hr>
 
 ## 🎓 Atividades
+
 ⚠ Atividades separadas conforme as demandas semanais
 
 <hr>

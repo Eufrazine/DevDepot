@@ -1,4 +1,4 @@
-<h2 align='center'>Repositório de Eufrazine dos Cursos da Udemy 🍄</h2>
+<h2 align='center'>Repositório de Monique dos Cursos da Udemy 🍄</h2>
 
 <hr>
 
@@ -9,6 +9,7 @@
 <hr>
 
 ## 🎓 Cursos
-* [Curso JS](https://github.com/Eufrazine/Projects/tree/main/Udemy/CursoJS)
+
+-   [Curso JS](https://github.com/Eufrazine/Projects/tree/main/Udemy/CursoJS)
 
 <hr>

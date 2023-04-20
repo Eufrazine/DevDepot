@@ -1,4 +1,4 @@
-<h2 align='center'>Repositório de Eufrazine dos Cursos da RocketSeat 🍄</h2>
+<h2 align='center'>Repositório de Monique dos Cursos da RocketSeat 🍄</h2>
 
 <hr>
 
@@ -9,6 +9,7 @@
 <hr>
 
 ## 🎓 Cursos
-* [Trilha Fundamentar](https://github.com/Eufrazine/Projects/tree/main/Rocketseat/TrilhaFundamentar)
+
+-   [Trilha Fundamentar](https://github.com/Eufrazine/Projects/tree/main/Rocketseat/TrilhaFundamentar)
 
 <hr>

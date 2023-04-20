@@ -69,8 +69,12 @@
 -   Regras para escrever nome de tabelas e de campos
 
 1 - Deve começar por uma letra do alfabeto
+
+<hr>
 2 - Os caracteres seguintes não são permitidos () + - / * " " ; = & | # >< ^ {} %
+<hr>
 3 - Não pode conter espaços, você pode usar o _
+<hr>
 4 - Não pode conter acentuação
 
 ## Comando SELECT
@@ -86,11 +90,21 @@
 
 ## SELECT com WHERE
 
--   Exemplo: SELECT * FROM aluno WHERE matricula = 1
+-   Exemplo: SELECT \* FROM aluno WHERE matricula = 1
 
 *   Procuramos os dados somente do aluno cuja matricula é = 1
 
--   Outro Exemplo: SELECT * FROM aluno WHERE nome like "j%"
+-   Outro Exemplo: SELECT \* FROM aluno WHERE nome like "j%"
 
 *   like = parecido, contendo, igual, etc
 *   "j%" = buscando nomes que começam com j, % = não me importa o que vem depois como é
+
+## Operadores Relacionais
+
+=, igual (somente em campos NUMBER)
+like, parecido, contendo, igual, etc
+
+> , maior que <, menor que
+> =, maior ou igual <=, menor ou igual
+> <>, não igual a
+> !=, Diferente de
