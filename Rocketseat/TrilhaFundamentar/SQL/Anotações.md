@@ -108,3 +108,16 @@ like, parecido, contendo, igual, etc
 > =, maior ou igual <=, menor ou igual
 > <>, não igual a
 > !=, Diferente de
+
+## Operadores Lógicos
+
+> AND = Usado para determinar dois operadores, ex: nome like "j%" AND matrícula < 2
+> OR = Vai fazer um "ou", ex: matrícula > 1 OR nome like "j%"
+> BETWEEN = Entre intervalo, ex: BETWEEN 4 and 7
+> IN e NOT IN = Informações que quero encontrar, ex: Where id_departamento IN (1, 2, 5)
+> IS NULL e IS NOT NULL = Where id_departamento IS NULL
+> INSERT INTO = Inserção de dados, ex: INSERT INTO aluno(nome, cpf, responsavel) VALUES ("Kim Jongin", 92837492, "Michael Jackson")
+> UPDATE = Atualizar algum dado, ex: UPDATE aluno SET nome = "Mariano Soares", responsavel = "Marcio Soares" WHERE 2 
+    - O comando UPDATE, vai verificar a matrícula 2 e vai alterar o nome e o responsável.
+> DELETE = Apagar informações do nosso banco de dados, ele não apaga o campo e sim o registro todo, ex: DELETE FROM aluno WHERE matricula = 3. 
+    - Ou DELETE FROM aluno (ele apaga o registro todo, pois não sabia qual aluno em específico apagar)
