@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Lógica de programação com JavaScript</title>
+    </head>
+
+    <body>
+        <h1>Controle de Decisão</h1>
+        <script>
+            var n1 = prompt('Digite um número');
+            n1 =  parseFloat(n1);
+            var n2 = parseFloat(prompt('digite outro número'));
+            var media = (n1 + n2) / 2;
+               
+            if(n1 === 0 || n2 === 0 || media <= 5){
+                alert("Parabéns! Você foi aprovado!");
+            } else {
+                alert("Desculpe, mas não foi dessa vez :(");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Lógica de programação com JavaScript</title>
+    </head>
+
+    <body>
+        <h1>Repetindo Ações</h1>
+        <script>
+            var n = parseFloat(prompt('Digite um número: ')); 
+
+            var indice = 1
+            // Repita até que indice seja <= 1000 ou número definido.
+
+            while(indice <= 38){
+                document.write(n + 'x'+ indice + '='+ (n*indice) + '<br>');
+                indice = indice + 1;
+            }
+            document.write('Saiu do Loop! :D');
+        </script>
+    </body>
+</html>
