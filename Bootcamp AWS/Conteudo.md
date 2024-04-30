@@ -58,7 +58,7 @@
         O repositório completo e seu histórico são espelhados em todos os computadores dos colaboradores, permitindo trabalho offline e uma maior flexibilidade de workflows.
         
         ! Clona o repositório completo, o que inclui histórico de versões, como se fosse um backup.
-        
+
     -   **O que é Git**
         
 
@@ -73,8 +73,11 @@
     -   **O que é GitHub**
         
         Plataforma de hospedagem de código para o controle de versão com Git, e colaboração.
+        
         ```github                vs             git```
+        
         O git vai fazer o gerenciamento do banco de versões
+        
         git é o servidor remoto, que comporta essas versões
     
     -   **Principais comandos para utilizar no git**
