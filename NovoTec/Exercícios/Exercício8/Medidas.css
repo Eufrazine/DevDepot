@@ -1,0 +1,81 @@
+* {
+  margin: 5px;
+  border-radius: 5px;
+  font-family: Helvetica, sans-serif;
+}
+.geral {
+  border: 1px dashed #5e340d86;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+/* CABEÇALHO */
+.header {
+  padding: 10px;
+  color: #fcd91d;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.753);
+  text-align: center;
+  border: 1px solid #97daf8;
+}
+/* CONTEINER */
+.content {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+/* ESQUERDA */
+.left {
+  display: flex;
+  width: 25%;
+  border: 1px solid #5d89c7;
+}
+#PoteMel {
+  margin: auto;
+  width: 100%;  
+}
+/* CENTRO */
+.center {
+  width: 50%;
+  padding: 5px;
+  color: 5e340d;
+  border: 1px solid #5d89c7;
+  text-align: center;
+}
+p {
+  margin-top: 100px;
+}
+#Abelha {
+  width: 170px;
+}
+/* DIREITA */
+.right {
+  width: 25%;
+  padding: 5px;
+  color: #5e340d;
+  border: 1px solid #5d89c7;
+}
+h4 {
+  color: #94d5d1;
+  text-align: center;
+}
+ol {
+  padding-inline-start: 15px;
+}
+li {
+  font-family: Verdana;
+  align-items: start;
+  list-style: circle;
+}
+/* RODAPÉ */
+.footer {
+  padding: 3px;
+  font-weight: bold;
+  border: 1px solid #97daf8;
+}
+a {
+  color: #0b84bd;
+  text-decoration: none;
+}

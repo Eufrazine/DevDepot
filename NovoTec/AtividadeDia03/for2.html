@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>for2</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="pt-br">
+    <meta name="copyright" content="Monique">
+    <meta name="description" content="Atividade dia 03/12">
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        var txt = "";
+        var person = {fname:"John",Iname:"Doe",age:24};
+        var x;
+        for (x in person) {
+            txt += person[x] + " ";
+        }
+        document.getElementById("demo").innerHTML = txt;
+    </script>
+</body>
+
+</html>

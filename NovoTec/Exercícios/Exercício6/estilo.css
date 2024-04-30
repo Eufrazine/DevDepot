@@ -1,0 +1,31 @@
+#geral {
+  width: 960px;
+  margin: 0px auto;
+  font-family: Helvetica, sans-serif;
+}
+#topo {
+  height: 150px;
+  background-color: #cf0;
+  padding: 1px 0px 0px 10px;
+}
+#lateral1 {
+  background-color: #ccc;
+  width: 155px;
+  float: left;
+  padding: 10px;
+}
+#lateral2 {
+  background-color: #ccc;
+  width: 170px;
+  float: right;
+  padding: 10px;
+}
+#conteudo {
+  margin: 0px 200px;
+}
+#rodape {
+  background-color: #cf0;
+  height: 60px;
+  clear: both;
+  padding: 1px 0px 0px 10px;
+}

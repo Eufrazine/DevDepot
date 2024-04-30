@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Usando eventos no Javascript</title>
+    <meta charset="utf-8">
+    <meta name="description" content="eventos ONMOUSEDOWN em JS">
+</head>
+
+<body>
+    <div onmousedown="mDown(this)" onmouseup="mUp(this)"
+        style="background-color:#587d9b;width:90px;height:20px;padding:40px;">Clique aqui</div>
+    <script>
+        function mDown(obj) {
+            obj.style.backgroundColor = "#74b99f";
+            obj.innerHTML = "Solte o clique"
+        }
+
+        function mUp(obj) {
+            obj.style.backgroundColor = "#587d9b";
+            obj.innerHTML = "Obrigado"
+        }
+    </script>
+</body>
+
+</html>

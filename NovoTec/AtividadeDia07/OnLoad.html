@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Usando eventos no Javascript</title>
+    <meta charset="utf-8">
+    <meta name="description" content="eventos onLoad em JS">
+</head>
+
+<body onload="checkCookies()">
+    <script>
+        function checkCookies() {
+            if (navigator.cookieEnabled == true)
+            {
+                alert("Cookies são permitidos")
+            } else
+            {
+                alert("Cookies não são permitidos")
+            }
+        }
+    </script>
+    <p>Irá aparecer um alert dizendo se os cookies estão ou não liberados em seu navegador</p>
+</body>
+
+</html>

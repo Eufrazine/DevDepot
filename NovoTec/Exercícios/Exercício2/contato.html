@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Contato</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="pt-br">
+    <meta name="copyright" content="Monique Caggiano">
+    <meta name="description" content="Unes - Contato">
+</head>
+
+<body background="imgs/fundo.jpeg" style="font-family:verdana">
+    <table border="0" width="900" align="center">
+        <tr height="80" width="900">
+            <td height="80">
+                <img src="imgs/logo.jpeg" alt="Logo Unes">
+            </td>
+            <td align="right">
+                <a href="index.html">Home</a> |
+                <a href="quem_somos.html">Quem somos</a> |
+                <a href="valores.html">Valores</a> |
+                <a href="contato.html">Contato</a>
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="2">
+                <h2>Entre em contato</h2>
+                <hr>
+            </td>
+        </tr>
+
+        <tr height="80" width="900">
+            <td colspan="2">
+                <form name="nContato" method="post" action="gravasDados">
+                    <fieldset border="0">
+                        <label for="iEmail">Seu email: </label><br>
+                        <input type="email" name="nEmail" id="iEmail" size="40" maxlength="40">
+                        <br>
+                        <label for="iAssunto">Assunto: </label><br>
+                        <input type="text" name="nAssunto" id="iAssunto" size="40" maxlength="40">
+                        <br>
+                        <label for="iDescrição">Descrição: </label><br>
+                        <textarea name="nDescrição" id="nDescrição" cols="38" rows="3"></textarea>
+                        <br>
+                        <input type="submit" name="nEnviar" id="iEnviar">
+                </form>
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <h4>Todos os direitos reservados</h4>
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
