@@ -7,7 +7,7 @@
 
 | courses                                                | hours         | status | year |
 |--------------------------------------------------------|---------------|--------|------|
-| Bootcamp Satander AWS                                 | 36 horas      | [...]  | 2024 |
+| Bootcamp Satander AWS                                 | 35 horas      | [...]  | 2024 |
 | Introdução à Análise de Dados Microsoft Power BI      | 5 horas       | [x]    | 2024 |
 | Lógica de programação e algoritmo                     | 2.5 horas     | [x]    | 2024 |
 | Cursos de análise de dados, python, power BI          | --            | [ ]    | 2024 |
