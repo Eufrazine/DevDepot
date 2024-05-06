@@ -56,9 +56,11 @@ Dentre os Sistemas de Controle de Versão (VCS), temos VCS Centralizado (CVCS) -
 ### O que é Git
 
 Gratuito e Open Source (Código Aberto); Ramificações (branching) e fusões merging) eficientes; Leve e rápido. 
-    - git commit → grava alterações no repositório 
-    - git pull → “puxa” as alterações do  repositório remoto para o local (busca e mescla)
-    - git push → “empurra” as alterações do repositório local para o remoto
+
+- git commit → grava alterações no repositório
+- git pull → “puxa” as alterações do  repositório remoto para o local (busca e mescla)
+- git push → “empurra” as alterações do repositório local para o remoto
+    
 
 ### O que é GitHub
 
@@ -66,8 +68,9 @@ Gratuito e Open Source (Código Aberto); Ramificações (branching) e fusões me
 
   github                vs             git
 
- O git vai fazer o gerenciamento do banco de versões
- git é o servidor remoto, que comporta essas versões
+O git vai fazer o gerenciamento do banco de versões
+
+git é o servidor remoto, que comporta essas versões
     
 ### Principais comandos para utilizar no git
 
