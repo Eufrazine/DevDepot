@@ -21,10 +21,11 @@
     
     Parte isolada de uma região com um ou mais data centers, conectadas por redes de alta velocidade e baixa latência.
 
-<hr>
-
-*Vantagens da Infraestrutura Global*
+#### Vantagens da Infraestrutura Global
 
 Velocidade de implantação → lançamento rápido de recursos de TI em qualquer região/zona
 
 Alcance Global → Distribuição dos recursos conforme localização dos usuários/clientes e redução de latência, melhoria de performance e satisfação.
+
+
+
