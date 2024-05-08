@@ -27,5 +27,27 @@ Velocidade de implantação → lançamento rápido de recursos de TI em qualque
 
 Alcance Global → Distribuição dos recursos conforme localização dos usuários/clientes e redução de latência, melhoria de performance e satisfação.
 
+<hr>
+
+### Vantagens da Alta Disponibilidade, Elasticidade e Agilidade
+
+Alta Disponibilidade → Recursos sempre acessíveis e operacionais, redundância, balanceamento, backup e recuperação.
+
+↳ Reaplicação em várias zonas, balanceamento de carga ou copiar e armazenar seus dados em serviços como S3 Simple Storage Service e RDS Relational Database Service.
+
+Agilidade → Lançamento, modificação ou encerramento rápido. Por uma interface web, linha de comando ou API.
+
+↳ CLI Command Line Iterface (comandos de interação com AWS) ou por meio de uma API com o SDK
+
+Elasticidade → Ajuste à demanda.
+
+↳ Manualmente usando o EC2 Elastic Compute Cloud ou Lambda
+
+↳ Automaticamente Auto Scaling e Fargate
+
+<hr>
+
+
+
 
 
