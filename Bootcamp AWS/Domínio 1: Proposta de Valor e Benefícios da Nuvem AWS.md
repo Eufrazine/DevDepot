@@ -1,4 +1,6 @@
-## Domínio 1: Conceitos de Nuvem na AWS
+# Domínio 1: Conceitos de Nuvem na AWS
+
+## Proposta de Valor e Benefícios da Nuvem AWS
 
 ### Aspectos Econômicos do dimensionamento
 
